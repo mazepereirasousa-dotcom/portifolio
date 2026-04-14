@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Jose | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portfólio<span></span></div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="reveal">Maria Jose</h1>
+            <p class="reveal">Desenvolvedora em formação.</p>
+            <a href="#projects" class="btn reveal">Ver Projetos</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-flex">
+                <div class="reveal about-img">
+                    <img src="perfil.jpeg" alt="Foto de Maria Jose">
+                </div>
+                <div class="about-text">
+                    <h2 class="reveal">Sobre mim</h2>
+                    <p class="reveal">
+                        Olá, meu nome é Maria Jose, sou formada em Licenciatura em Pedagógia e Pós-graduação e Docência
+                        do ensino Superior,E agora cursando o curso de Sistema para Internet, ofertado pela Universidade
+                        Estadual do Piauí-UAPI, pois o mesmo me oferece um leque tecnológico com foco técnico e prático
+                        com abrangência em programação ( HTML, CSS, Java Script) desenvolvimento mobile, UX/UI e
+                        metodologias ágeis, no momento estou atuando na rede Municipal de ensino. Hoje tenho dois filhos
+                        que são o complemento da minha vida, e apoio incondicional de minha mãe e irmãos que estão
+                        sempre ao meu lado, e que me motivaram a conquistar meus objetivos, permanecer perseverante e
+                        nuca desistir.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="reveal">Meus Projetos</h2>
+        <div class="project-grid">
+            <div class="project-card reveal">
+                <div class="project-img-container">
+                    <img src="projet.jpeg" alt="Projeto" class="project-thumb">
+                </div>
+                <h3>Em andamento</h3>
+                <p>Construído com HTML, CSS e JS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="reveal">Contato</h2>
+        <div class="social-links reveal">
+            <p style="margin-bottom: 20px; font-size: 0.9rem; color: #1a0505;">
+                <i class="fas fa-envelope"></i> mazepereirasousa@gmail.com
+            </p>
+            <a href="https://github.com/mazepereirasousa-dotcom/portifolio" class="btn btn-github" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://wa.me/5589994103233" class="btn btn-whatsapp" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+
+        <form id="contact-form" class="reveal">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
